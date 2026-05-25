@@ -17,13 +17,14 @@ public class HomePage {
 	// Click on Popular Item Menu
 	public WebElement clickOnPopularItem() {
 
-		return driver.findElement(By.xpath("/html/body/header/nav/ul/li[6]/a"));
+		return driver.findElement(By.linkText("POPULAR_ITEMS"));
 	}
 
 	// Table Text Method
 	public WebElement tableText() {
 
-		return driver.findElement(By.name("'HP ELITEPAD 1000"));
+		return driver.findElement(
+				By.xpath("HP ELITEPAD 1000"));
 	}
 
 	// Popular Item 1
