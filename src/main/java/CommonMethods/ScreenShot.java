@@ -96,7 +96,7 @@ public class ScreenShot {
 //        To:
 //        your desired folder
         
-        System.out.println("Screenshot taken successfully.");
+        System.out.println("Screenshot taken successfully for this code.");
     }
 }
 
